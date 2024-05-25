@@ -30,8 +30,7 @@ def main():
     confirmation = st.selectbox("Do you want to continue with the calculator?", ("Yes", "No"))
 
     if confirmation == "No":
-        st.markdown("The calculator is disabled. Please refresh the page if you want to continue.")
-
+        st.markdown("The calculator is disabled. Please refresh the page if you want to continue with the browser.")
         # Disable inputs and dropdown
         st.markdown("<style>.stNumberInput, .stSelectbox {pointer-events: none;}</style>", unsafe_allow_html=True)
 
