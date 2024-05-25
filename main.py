@@ -4,8 +4,8 @@ def main():
     st.title("Simple Calculator")
 
     # Input fields for the two numbers
-    num1 = st.number_input("Enter first number", value=0.0)
-    num2 = st.number_input("Enter second number", value=0.0)
+    num1 = st.number_input("Enter first number", value=0)
+    num2 = st.number_input("Enter second number", value=0)
 
     # Dropdown for operation selection
     operation = st.selectbox("Select operation", ["Addition", "Subtraction", "Multiplication", "Division"])
