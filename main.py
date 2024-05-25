@@ -34,6 +34,8 @@ def main():
         # Disable inputs and dropdown
         st.markdown("<style>.stNumberInput, .stSelectbox {pointer-events: none;}</style>", unsafe_allow_html=True)
 
+    # Footer message
+    st.write("Application made by Muhammad Tufail")
 
 if __name__ == "__main__":
     main()
